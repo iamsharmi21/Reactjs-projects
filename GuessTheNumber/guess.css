@@ -1,0 +1,33 @@
+.parentDiv{
+    background-color: gray;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: whitesmoke;
+}
+.container{
+    background-color: transparent;
+    width: 600px;
+    padding: 30px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+}
+.container label{
+    margin-bottom: 20px;
+}
+.container input{
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+.container input:hover{
+    background-color: rgb(208, 208, 208);
+}
+.container input:focus{
+    background-color: beige;
+}
